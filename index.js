@@ -63,7 +63,10 @@ exports.handler = async (event, context, callback) => {
             };
             s3.putObject(params, (error, data) => {
                 if(error) reject({ reference: 1, error});
-                else callback(null, true);
+                else {
+                    console.log('true');
+                    callback(null, true);
+                }
             });
         });
     }).catch((error) => callback(JSON.stringify(error.constructor === Object ? error : { reference: -1, error}, null, 4), null));
