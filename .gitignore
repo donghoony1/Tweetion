@@ -102,3 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+_environment.json
+Tweetion.zip

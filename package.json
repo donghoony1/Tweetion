@@ -1,0 +1,24 @@
+{
+  "name": "tweetion",
+  "version": "1.0.0",
+  "description": "Tweet + Notion = Tweetion",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/donghoony1/Tweetion.git"
+  },
+  "keywords": [
+    "Twitter",
+    "Notion"
+  ],
+  "author": "Donghoon Yoo",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/donghoony1/Tweetion/issues"
+  },
+  "homepage": "https://github.com/donghoony1/Tweetion#readme",
+  "dependencies": {
+    "aws-sdk": "^2.619.0",
+    "request": "^2.88.2"
+  }
+}
